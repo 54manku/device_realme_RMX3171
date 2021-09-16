@@ -21,9 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RMX3171/device.mk)
 
-# Inherit some common DotOs stuff.
-$(call inherit-product, vendorTrue
-/config/common_full_phone.mk)
+# Inherit some common Dot stuff.
+$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_RMX3171
