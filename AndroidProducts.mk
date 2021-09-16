@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/dot_RMX3171.mk
+
+COMMON_LUNCH_CHOICES := \
+    dot_RMX3171-user \
+    dot_RMX3171-userdebug \
+    dot_RMX3171-eng
