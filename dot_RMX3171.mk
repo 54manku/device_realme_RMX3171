@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RMX3171/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common DotOs stuff.
 $(call inherit-product, vendorTrue
 /config/common_full_phone.mk)
 
@@ -35,7 +35,8 @@ PRODUCT_MANUFACTURER := realme
 TARGET_BOOT_ANIMATION_RES := 720
 
 #Gapps
-With_Gapps := True
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 
 # Build info
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys"
