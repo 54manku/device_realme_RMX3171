@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_RMX3171.mk
+    $(LOCAL_DIR)/fluid_RMX3171.mk
